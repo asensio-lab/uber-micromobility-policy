@@ -6,7 +6,7 @@ Contents:
 The analysis is conducted in R. The code was tested in R version 4.0.3. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
 
 The packages needed for the analysis include:
-- plm
+- `plm` for generating linear models from panel data / fixed-effects estimates
 - texreg
 - miceadds
 - estimatr
