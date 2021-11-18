@@ -1,9 +1,9 @@
 # uber-micromobility-policy
-This repository contains scientific replication materials and code for "Shared micromobility reduces urban traffic: evidence from a natural experiment with mobile app geofencing"
+This repository contains scientific replication materials and code for "Micromobility displaces cars in the urban center: a field experiment with mobile app geofencing"
 
 Contents:
 
-The analysis is conducted in R. The code was tested in R version 4.0.3. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
+The analysis is conducted in R. The code was tested in R version 4.1.1. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
 
 The packages needed for the analysis include:
 - `plm` for generating linear models from panel data / fixed-effects estimates.
