@@ -1,4 +1,4 @@
-# uber-micromobility-policy a
+# uber-micromobility-policy
 This repository contains scientific replication materials and code for "Micromobility displaces cars in the urban center: a field experiment with mobile app geofencing"
 
 Contents:
