@@ -13,7 +13,6 @@ import plotly.express as px
 #-------------------------------------------
 
 df_midtownddd = pd.read_csv(r'MidtownDDD_production.csv')
-df_midtownddd = df_midtownddd[df_midtownddd['traveltime.mile'].between(df_midtownddd['traveltime.mile'].quantile(0.01), df_midtownddd['traveltime.mile'].quantile(0.99))]
 
 def create_means(df):
     mean_list_pre = []
@@ -169,7 +168,6 @@ fig_midtown.show()
 #-------------------------------------------
 
 df_marta = pd.read_csv(r'MARTA_production_final.csv', encoding='cp1252')
-df_marta = df_marta[df_marta['Travel.Time.per.Mile..Minutes.Mile.'].between(df_marta['Travel.Time.per.Mile..Minutes.Mile.'].quantile(0.01), df_marta['Travel.Time.per.Mile..Minutes.Mile.'].quantile(0.99))]
 
 avg_list_control_pre = []
 avg_list_control_post = []
