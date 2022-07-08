@@ -132,8 +132,8 @@ tickfont = dict(size=20)))
 fig_midtown.update_layout(
     yaxis = dict(
         tickmode = 'array',
-        tickvals = [2, 2.5, 3, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0],
-        ticktext = ['2.0', '2.5', '3.0', '3.5', '4.0', '4.5', '5.0', '5.5', '6.0']
+        tickvals = [2, 3, 4.0, 5.0, 6.0, 7.0],
+        ticktext = ['2.0', '3.0', '4.0', '5.0', '6.0', '7.0']
     )
 )
 
@@ -275,8 +275,8 @@ tickfont = dict(size=20)))
 fig_marta.update_layout(
     yaxis = dict(
         tickmode = 'array',
-        tickvals = [3.5, 4.0, 4.5, 5.0, 5.5],
-        ticktext = ['3.5', '4.0', '4.5', '5.0', '5.5']
+        tickvals = [3.5, 4.0, 4.5, 5.0, 5.5, 6.0],
+        ticktext = ['3.5', '4.0', '4.5', '5.0', '5.5', '6.0']
     )
 )
 
