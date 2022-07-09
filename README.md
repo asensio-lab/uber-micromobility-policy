@@ -25,6 +25,8 @@ The packages needed for the visualizations include:
 
 ## Data Description and Dictionary
 
+### Dataset Descriptions
+
 The data files needed to replicate the econometric analysis as well as replicate the maps in Figure 1 include:
 - atlantatracts.csv: lists the census tracts in the City of Atlanta.
 - martatracts.csv: lists the census tracts that contain MARTA subway stations.
@@ -38,3 +40,5 @@ The data files needed to replicate the econometric analysis as well as replicate
 
 The tracts used as treatment and counterfactual in the study are described in the main R analysis file. 
 The raw data on travel times for the City of Atlanta is publicly available on movement.uber.com. 
+
+### Data Dictionary
