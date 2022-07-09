@@ -1,7 +1,7 @@
 # uber-micromobility-policy
 This repository contains scientific replication materials and code for "Micromobility displaces cars in the urban center: a field experiment with mobile app geofencing"
 
-Contents:
+## Code Instructions and Information
 
 The analysis is conducted in R. The code was tested in R version 4.1.1. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
 
