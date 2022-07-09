@@ -43,22 +43,22 @@ The raw data on travel times for the City of Atlanta is publicly available on mo
 
 ### Data Dictionary
 The variables used in the econometric analysis include:
--*origin.tract*: Origin census tract for trip 
--*destination.tract*: Destination census tract for trip 
--*date*: Date in which trip occurred 
--*origin.area*: Origin area for trip (Midtown, Buckhead, Cumberland, Sandy Springs)
--*destination.area*: Destination area for trip (Midtown, Buckhead, Cumberland, Sandy Springs) 
--*distance*: Straight line distance from the centroid between census tracts (miles)
--*traveltime.mile*: Trip duration (min) 
--*post*: Binary variable indicating whether trip occurred after the ban 
--*treated*: Binary variable indicating whether trip began in census tract affected by the ban 
--*scooter*: Binary variable indicating whether trip began in census tract with scooters available
--*month*: Month in which trip occurred 
--*dayofweek*: Day of week in which trip occurred 
--*numvehicles*: Aggregate number of vehicles used in commuting by workers whose means of transportation is car, truck, or van within a census trac
--*transit.routes*: Number of transit routes within half a mile of an average block group 
--*bike.hubs*: Number of bike shares within half a mile of transit
--*walk.score*: Integer between 0-100 measuring the walkability of a census tract 
--*totalschool*: Count of students enrolled in school by Census tract 
--*event*: Binary variable indicating whether trip occurred on the day of a large event at the Mercedes Benz Station or State Farm Arena 
--*precip*: Binary variable indicating whether trip occurred during a time with precipitation 
+- *origin.tract*: Origin census tract for trip 
+- *destination.tract*: Destination census tract for trip 
+- *date*: Date in which trip occurred 
+- *origin.area*: Origin area for trip (Midtown, Buckhead, Cumberland, Sandy Springs)
+- *destination.area*: Destination area for trip (Midtown, Buckhead, Cumberland, Sandy Springs) 
+- *distance*: Straight line distance from the centroid between census tracts (miles)
+- *traveltime.mile*: Trip duration (min) 
+- *post*: Binary variable indicating whether trip occurred after the ban 
+- *treated*: Binary variable indicating whether trip began in census tract affected by the ban 
+- *scooter*: Binary variable indicating whether trip began in census tract with scooters available
+- *month*: Month in which trip occurred 
+- *dayofweek*: Day of week in which trip occurred 
+- *numvehicles*: Aggregate number of vehicles used in commuting by workers whose means of transportation is car, truck, or van within a census trac
+- *transit.routes*: Number of transit routes within half a mile of an average block group 
+- *bike.hubs*: Number of bike shares within half a mile of transit
+- *walk.score*: Integer between 0-100 measuring the walkability of a census tract 
+- *totalschool*: Count of students enrolled in school by Census tract 
+- *event*: Binary variable indicating whether trip occurred on the day of a large event at the Mercedes Benz Station or State Farm Arena 
+- *precip*: Binary variable indicating whether trip occurred during a time with precipitation 
