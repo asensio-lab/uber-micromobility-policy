@@ -3,7 +3,7 @@ This repository contains scientific replication materials and code for "Micromob
 
 ## Code Instructions and Information
 
-The analysis is conducted in R (see "**Analysis_policy_experiments_v2.R**"). The code was tested in R version 4.1.1. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
+The analysis is conducted in R (see "**Analysis_policy_experiments_v2.R**"). Running the R file in sequential order will create and save all tables and figures (except for Figure S1). The code was tested in R version 4.1.1. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
 
 The packages needed for the analysis include:
 - `plm` for generating linear models from panel data / fixed-effects estimates.
@@ -16,7 +16,7 @@ The packages needed for the analysis include:
 - `dplyr` for data manipulation and preprocessing. 
 - `tidyverse` for additional data manipulation and preprocessing.
 
-The visual test for parallel trends is created in Python (see "**parallel_trend_figs.py**"). The code was tested in Python version 3.7.4. 
+The visual test for parallel trends is created in Python (see "**parallel_trend_figs.py**"). Running the Python file in sequential order will create and display trends of daily average travel times for the Midtown and MARTA experiment (see Figure S1). The code was tested in Python version 3.7.4. 
 
 The packages needed for the visualizations include:
 - `pandas` for loading and manipulating data.
