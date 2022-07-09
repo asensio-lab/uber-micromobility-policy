@@ -3,7 +3,7 @@ This repository contains scientific replication materials and code for "Micromob
 
 ## Code Instructions and Information
 
-The analysis is conducted in R. The code was tested in R version 4.1.1. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
+The analysis is conducted in R, see "**Analysis_policy_experiments_v2.R**". The code was tested in R version 4.1.1. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
 
 The packages needed for the analysis include:
 - `plm` for generating linear models from panel data / fixed-effects estimates.
@@ -16,12 +16,14 @@ The packages needed for the analysis include:
 - `dplyr` for data manipulation and preprocessing. 
 - `tidyverse` for additional data manipulation and preprocessing.
 
-The visual test for parallel trends is created in Python. The code was tested in Python version 3.7.4. 
+The visual test for parallel trends is created in Python, see "**parallel_trend_figs.py**". The code was tested in Python version 3.7.4. 
 
 The packages needed for the visualizations include:
 - `pandas` for loading and manipulating data.
 - `datetime` for encoding strings as date objects.
 - `plotly` for creating the visualizations.
+
+## Data Description and Dictionary
 
 The data files needed to replicate the econometric analysis as well as replicate the maps in Figure 1 include:
 - atlantatracts.csv: lists the census tracts in the City of Atlanta.
