@@ -1,6 +1,0 @@
-origin (int) - Origin tract of the trip
-destination (int) - Destination tract of the trip
-date (string) - Date in which trip occured
-policy.dummy (int) - Binary variable indicating whether trip occured in tract in which ban is implemented
-distance (float) - Straight line distance between the centroid of the origin and destination tract in miles
-traveltime.person (float) - Travel time per mile normalized the reflect abnormally high tract populations due to large events
