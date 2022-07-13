@@ -54,11 +54,11 @@ The packages needed for the analysis are listed below. The version of each packa
 
 The code contains consistent naming conventions to make replication more straightforward. Tables follow the naming convention **table_XX** where **XX** represents the table's corresponding number in the manuscript. For example, Table S1 appears as a matrix named **table_s1** in the `.R` file.
  
-The visual test for parallel trends is created in Python (see "**parallel_trend_figs.py**"). Running the Python file in sequential order will create and display trends of daily average travel times for the Midtown and MARTA experiment (see Figure S1). The code was tested in Python version 3.7.4. 
+The visual test for parallel trends is created in Python (see "**parallel_trend_figs.py**"). Running the Python file in sequential order will create and display trends of daily average travel times for the Midtown and MARTA experiment (see Figure S1). The code was tested in Python version 3.8.5. 
 
 The packages needed for the visualizations include:
-- `pandas` for loading and manipulating data.
-- `datetime` for encoding strings as date objects.
-- `plotly` for creating the visualizations.
+- `pandas` (1.1.3) for loading and manipulating data.
+- `plotly` (5.2.1) for creating the visualizations.
+- `statsmodels` (0.12.0) for generating trendlines.
 
 The tracts used as treatment and counterfactual in the study are described in the main R analysis file. The raw data on travel times for the City of Atlanta is publicly available on movement.uber.com. 
