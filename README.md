@@ -27,13 +27,18 @@ This directory contains all data required to replicate our findings from the Mer
 This directory contains all data and code required to replicate the tables and figures contained in the paper's Supplementary Information. 
 - `Midtown_Descriptives.csv`: The dataset containing replication data for Table S2, descriptive statistics on the Midtown experiment and its corresponding tracts. 
 - `MidtownDDD_2018.csv`: The dataset used for replicating Table S8, placebo testing using data from the year prior to the natural experiment (2018). The structure of the data is the same as the corresponding datasets from the main analysis.
-- `parallel_trend_figs.py`: 
+- `parallel_trend_figs.py`: The Python script used to generate Figure S1, parallel time trends. We recommend executing this code on a Mac or Linux machine to guarantee replication of the figure as shown in the paper, because we identified a bug in one of the dependencies which causes the trendlines to display incorrectly on some Windows devices. 
 
-
+### 5. Mapping
+This directory contains data required to generate the map from Figure 1. With the release of new U.S. Census data, we note that careful attention should be paid to changing defaults for mapping as packages used in generating this figure are updated from the 2010 to 2020 Census to guarantee replication.
+- `atlantatracts.csv`: lists the census tracts in the City of Atlanta.
+- `martatracts.csv`: lists the census tracts that contain MARTA subway stations.
+- `Transit_Routes_2019.csv`: describes the transit lines between MARTA subway stations.
+- `Transit_Routes_2019.kml`: includes the location of MARTA subway stations for mapping purposes.
 
 ## Code Instructions and Information
 
-The main analysis is conducted in R (see "**uber_micromobility_analysis.R**"). Running the R file in sequential order will create and save all tables and figures (except for Figure S1, which is generated in Python). The code was tested in R version 4.1.1. The data needed for the replication is available in both human and machine-readable formats, incuding .csv and .kml.
+The main analysis is conducted in R (see "**uber_micromobility_analysis.R**"). Running the R file in sequential order will create and save all tables and figures (except for Figure S1, which is generated in Python). For easy replication, ensure that the `.R` file is located one level above the five FILES described above, as it is designed to locate the data files in each of their respective directories. The code was tested in R version 4.1.1.
 
 The packages needed for the analysis are listed below. The version of each package used in our analysis is shown in parenthesis after the package name.
 - `plm` (2.6.0) for generating linear models from panel data / fixed-effects estimates.
@@ -47,6 +52,8 @@ The packages needed for the analysis are listed below. The version of each packa
 - `tidyverse` (1.3.1) for additional data manipulation and preprocessing.
 - `lfe` (2.8.7.1) for multi-way clustering and verifying model results using one-way clustering.
 
+The code contains consistent naming conventions to make replication more straightforward. Tables follow the naming convention **table_XX** where **XX** represents the table's corresponding number in the manuscript. For example, Table S1 appears as a matrix named **table_s1** in the `.R` file.
+ 
 The visual test for parallel trends is created in Python (see "**parallel_trend_figs.py**"). Running the Python file in sequential order will create and display trends of daily average travel times for the Midtown and MARTA experiment (see Figure S1). The code was tested in Python version 3.7.4. 
 
 The packages needed for the visualizations include:
@@ -54,42 +61,4 @@ The packages needed for the visualizations include:
 - `datetime` for encoding strings as date objects.
 - `plotly` for creating the visualizations.
 
-## Data Description and Dictionary
-
-### Datasets
-
-The data files needed to replicate the econometric analysis as well as replicate the maps in Figure 1 include:
-- atlantatracts.csv: lists the census tracts in the City of Atlanta.
-- martatracts.csv: lists the census tracts that contain MARTA subway stations.
-- Transit_Routes_2019.csv: describes the transit lines between MARTA subway stations.
-- Transit_Routes_2019.kml: includes the location of MARTA subway stations.
-- MidtownDD_final.csv: the dataset used in calculating difference-in-differences estimators for Midtown experiment.
-- MidtownDDD_final.csv: the dataset used in calculating triple-difference estimators for Midtown experiment.
-- MB_final.csv: the dataset used for the Mercedes-Benz experiment. 
-- MARTA_final.csv: the dataset used for the MARTA exeriment.
-- covsfinal_MidtownDDD: used for generating descriptive statistics from Midtown experiment.
-
-The tracts used as treatment and counterfactual in the study are described in the main R analysis file. 
-The raw data on travel times for the City of Atlanta is publicly available on movement.uber.com. 
-
-### Data Dictionary
-The variables used in the econometric analysis include:
-- *origin.tract*: Origin census tract for trip 
-- *destination.tract*: Destination census tract for trip 
-- *date*: Date in which trip occurred 
-- *origin.area*: Origin area for trip (Midtown, Buckhead, Cumberland, Sandy Springs)
-- *destination.area*: Destination area for trip (Midtown, Buckhead, Cumberland, Sandy Springs) 
-- *distance*: Straight line distance from the centroid between census tracts (miles)
-- *traveltime.mile*: Trip duration (min) 
-- *post*: Binary variable indicating whether trip occurred after the ban 
-- *treated*: Binary variable indicating whether trip began in census tract affected by the ban 
-- *scooter*: Binary variable indicating whether trip began in census tract with scooters available
-- *month*: Month in which trip occurred 
-- *dayofweek*: Day of week in which trip occurred 
-- *numvehicles*: Aggregate number of vehicles used in commuting by workers whose means of transportation is car, truck, or van within a census trac
-- *transit.routes*: Number of transit routes within half a mile of an average block group 
-- *bike.hubs*: Number of bike shares within half a mile of transit
-- *walk.score*: Integer between 0-100 measuring the walkability of a census tract 
-- *totalschool*: Count of students enrolled in school by Census tract 
-- *event*: Binary variable indicating whether trip occurred on the day of a large event at the Mercedes Benz Station or State Farm Arena 
-- *precip*: Binary variable indicating whether trip occurred during a time with precipitation 
+The tracts used as treatment and counterfactual in the study are described in the main R analysis file. The raw data on travel times for the City of Atlanta is publicly available on movement.uber.com. 
