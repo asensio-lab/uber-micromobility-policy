@@ -10,7 +10,7 @@ import plotly.express as px
 #Figure S1A
 #-------------------------------------------
 
-df_midtownddd = pd.read_csv(r'C:\Users\edwardchen\data_science\uber\Nature Energy\Nature Energy\Midtown Experiment\MidtownDDD.csv')
+df_midtownddd = pd.read_csv(r'../Midtown Experiment/MidtownDDD.csv')
 
 def create_means(df):
     mean_list_pre = []
@@ -78,7 +78,7 @@ df_fig_midtown['date_format'] = df_fig_midtown['date'].apply(lambda x: datetime.
 fig_midtown = px.scatter(
     df_fig_midtown, x="date_format", y="minutes_per_mile", color="type", 
     color_discrete_sequence=["#0099C6", "#0099C6", "#DC3912", "#DC3912", "#AB63FA", "#AB63FA", "#2CA02C", "#2CA02C"], 
-    trendline='lowess', trendline_options=dict(frac=0.7), 
+    trendline='lowess', trendline_options=dict(frac=0.75), 
     symbol_sequence = ['circle-open'],
     width=1000, height=750
 )
@@ -169,7 +169,7 @@ fig_midtown.show()
 #Figure S1B
 #-------------------------------------------
 
-df_marta = pd.read_csv(r'C:\Users\edwardchen\data_science\uber\Nature Energy\Nature Energy\MARTA Experiment\MARTA.csv', encoding='cp1252')
+df_marta = pd.read_csv(r'../MARTA Experiment/MARTA.csv', encoding='cp1252')
 
 avg_list_control_pre = []
 avg_list_control_post = []
