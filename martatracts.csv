@@ -1,0 +1,38 @@
+Station,lat,long,census_code,census_tract,tract,tract_name,Parking.plain,Parking,Buses,WalkScore
+Arts Center   ,33.78885,-84.386841,1.31E+14,400,4,Census Tract 4,limited,1,4,87
+Ashby,33.756417,-84.4174518,1.31E+14,2500,25,Census Tract 25,free,1,2,66
+Avondale,33.7756856,-84.2817456,1.31E+14,22600,226,Census Tract 226,free,1,4,68
+Bankhead,33.7722776,-84.4294781,1.31E+14,8500,85,Census Tract 85,limited,1,2,24
+Brookhaven  ,33.8596031,-84.3394018,1.31E+14,21405,214.05,Census Tract 214.05,free,1,4,74
+Buckhead  ,33.8477229,-84.3675678,1.31E+14,10001,100.01,Census Tract 100.01,none,0,1,82
+Candler Park ,33.7623471,-84.3410014,1.31E+14,20400,204,Census Tract 204,free,1,2,70
+Chamblee  ,33.8879223,-84.3049086,1.31E+14,21204,212.04,Census Tract 212.04,free,1,6,63
+Civic Center   ,33.766305,-84.387209,1.31E+14,1900,19,Census Tract 19,none,0,0,86
+College Park   ,33.6522646,-84.4490773,1.31E+14,12300,123,Census Tract 123,free,1,8,61
+Decatur ,33.7746118,-84.29751,1.31E+14,22500,225,Census Tract 225,none,0,5,95
+Doraville  ,33.9026276,-84.2804662,1.31E+14,21301,213.01,Census Tract 213.01,free,1,5,54
+Dunwoody  ,33.920888,-84.34428,1.31E+14,21215,212.15,Census Tract 212.15,free,1,3,50
+East Lake ,33.764698,-84.312939,1.31E+14,20801,208.01,Census Tract 208.01,free,1,3,57
+East Point   ,33.6771551,-84.4405145,1.31E+14,12300,123,Census Tract 123,free,1,8,58
+Five Points,33.753826,-84.391571,1.31E+14,3500,35,Census Tract 35,none,0,10,96
+Garnett   ,33.747845,-84.396415,1.31E+14,3500,35,Census Tract 35,none,0,0,79
+Georgia State,33.7496143,-84.3856846,1.31E+14,3500,35,Census Tract 35,none,0,3,88
+GWCC/Mercedes-Benz Stadium,33.756293,-84.397759,1.31E+14,2600,26,Census Tract 26,none,0,0,73
+H.E. Holmes,33.754489,-84.4692986,1.31E+14,8102,81.02,Census Tract 81.02,free,1,13,43
+Indian Creek,33.7696029,-84.2282,1.31E+14,23111,231.11,Census Tract 231.11,free,1,5,14
+Inman Park/Reynoldstown,33.7577651,-84.3536191,1.31E+14,3000,30,Census Tract 30,free,1,4,78
+Kensington,33.7719453,-84.2510786,1.31E+14,23113,231.13,Census Tract 231.13,free,1,8,39
+King Memorial,33.7502611,-84.3758206,1.31E+14,11900,119,Census Tract 119,none,0,3,91
+Lakewood   ,33.7008573,-84.4297611,1.31E+14,7603,76.03,Census Tract 76.03,free,1,6,28
+Lenox  ,33.8448208,-84.3589471,1.31E+14,9403,94.03,Census Tract 94.03,free,1,1,68
+Lindbergh Center   ,33.8236541,-84.3700046,1.31E+14,9402,94.02,Census Tract 94.02,free,1,5,79
+Medical Center  ,33.9105547,-84.3516887,1.31E+14,10115,101.15,Census Tract 101.15,free,1,1,31
+Midtown   ,33.780868,-84.386798,1.31E+14,1202,12.02,Census Tract 12.02,none,0,3,92
+North Avenue   ,33.771747,-84.38658,1.31E+14,1202,12.02,Census Tract 12.02,none,0,5,81
+North Springs  ,33.9441821,-84.3573886,1.31E+14,10122,101.22,Census Tract 101.22,free,1,6,14
+Oakland City   ,33.71766,-84.42626,1.31E+14,6602,66.02,Census Tract 66.02,free,1,4,43
+Peachtree Center   ,33.749161,-84.394591,1.31E+14,3500,35,Census Tract 35,none,0,1,83
+Sandy Springs  ,33.9318846,-84.3510258,1.31E+14,10110,101.1,Census Tract 101.10,free,1,1,59
+Vine City,33.7564788,-84.4035248,1.31E+14,2600,26,Census Tract 26,limited,1,1,60
+West End   ,33.7360753,-84.4133953,1.31E+14,4200,42,Census Tract 42,free,1,7,86
+West Lake,33.75287,-84.4445275,1.31E+14,4000,40,Census Tract 40,free,1,4,33
