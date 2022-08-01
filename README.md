@@ -1,5 +1,5 @@
-# Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy 
-This repository contains scientific replication materials and code for "Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy".
+# Impacts of micromobility on car displacement with causal evidence from a natural experiment and geofencing policy 
+This repository contains scientific replication materials and code for "Impacts of micromobility on car displacement with causal evidence from a natural experiment and geofencing policy".
 
 ## Repository Structure
 The repository contains five directories and our primary analysis code file (**uber_micromobility_analysis.R**, described in detail below). Each of the five directories contains all relevant code, data, and data dictionaries for executing each portion of our analysis. We describe the purpose and contents of each directory below. We also note that we often provide data in excess of the specific variables required to reproduce our findings in order to support further analysis (i.e., not all data included in this repository is necessary to replicate the paper's results). 
