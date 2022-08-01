@@ -1,4 +1,4 @@
-# Micromobility displaces cars in the urban center: a natural experiment with mobile app geofencing 
+# Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy 
 This repository contains scientific replication materials and code for "Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy".
 
 ## Repository Structure
