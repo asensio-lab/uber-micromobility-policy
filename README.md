@@ -1,5 +1,5 @@
 # Micromobility displaces cars in the urban center: a natural experiment with mobile app geofencing 
-This repository contains scientific replication materials and code for "Micromobility displaces cars in the urban center: a natural experiment with mobile app geofencing".
+This repository contains scientific replication materials and code for "Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy".
 
 ## Repository Structure
 The repository contains five directories and our primary analysis code file (**uber_micromobility_analysis.R**, described in detail below). Each of the five directories contains all relevant code, data, and data dictionaries for executing each portion of our analysis. We describe the purpose and contents of each directory below. We also note that we often provide data in excess of the specific variables required to reproduce our findings in order to support further analysis (i.e., not all data included in this repository is necessary to replicate the paper's results). 
@@ -8,10 +8,8 @@ For each dataset used in generating our main results, we provide a comprehensive
 
 ### 1. Midtown Experiment
 This directory contains all data required to replicate our findings from the Midtown Experiments, including both our difference-in-differences and triple-differences estimators. Contents include:
-- `MidtownDD.csv`: The dataset used in formulating our difference-in-differences estimator for the Midtown experiment. 
-- `MidtownDDD.csv`: The dataset used in formulating our triple-differences estimator for the Midtown experiment.
-- `MidtownDD Data Dictionary.txt`: A data dictionary giving the data type and definition of each variable contained in the dataset for the difference-in-differences estimator.
-- `MidtownDDD Data Dictionary.txt`: A data dictionary giving the data type and definition of each variable contained in the dataset for the triple-differences estimator (which contains additional counterfactual tracts).
+- `MidtownDDD.csv`: The dataset used in formulating our difference-in-differences and triple-differences estimator for the Midtown experiment.
+- `MidtownDDD Data Dictionary.txt`: A data dictionary giving the data type and definition of each variable contained in the dataset for the difference-in-differences and triple-differences estimator (which contains additional counterfactual tracts).
 
 ### 2. MARTA Experiment
 This directory contains all data required to replicate our findings from the MARTA Experiment. 
