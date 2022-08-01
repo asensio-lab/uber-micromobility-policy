@@ -60,3 +60,5 @@ The packages needed for the visualizations include:
 - `statsmodels` (0.12.0) for generating trendlines.
 
 The tracts used as treatment and counterfactual in the study are described in the main R analysis file. The raw data on travel times for the City of Atlanta is publicly available on movement.uber.com. 
+
+Data retrieved from Uber Movement, (c) 2022 Uber Technologies, Inc., https://movement.uber.com. 
