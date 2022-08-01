@@ -75,6 +75,8 @@ df_fig_midtown = df_bottom.append(df_top)
 
 df_fig_midtown['date_format'] = df_fig_midtown['date'].apply(lambda x: datetime.datetime(2000 + int(x.split('/')[2]), int(x.split('/')[0]), int(x.split('/')[1])))
 
+df_fig_midtown = df_fig_midtown[(df_fig_midtown['date_format'] >= datetime.datetime(2019, 7, 12)) & (df_fig_midtown['date_format'] <= datetime.datetime(2019, 9, 6))]
+
 fig_midtown = px.scatter(
     df_fig_midtown, x="date_format", y="minutes_per_mile", color="type", 
     color_discrete_sequence=["#0099C6", "#0099C6", "#DC3912", "#DC3912", "#AB63FA", "#AB63FA", "#2CA02C", "#2CA02C"], 
