@@ -1,4 +1,4 @@
-# Impacts of micromobility on car displacement with causal evidence from a natural experiment and geofencing policy 
+# Impacts of micromobility on car displacement with evidence from a natural experiment and geofencing policy 
 This repository contains scientific replication materials and code for "Impacts of micromobility on car displacement with causal evidence from a natural experiment and geofencing policy".
 
 ## Repository Structure
